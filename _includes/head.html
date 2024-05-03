@@ -23,7 +23,7 @@
     {%- endif -%}
   {% endcapture %}
 
-  <title>{{ title }}</title>
+  <title href="{{ '/feed.xml' | absolute_url }}">{{ title }}</title>
 
   {% if site.author %}
   <meta name="author" content="{{ site.author }}">
@@ -71,7 +71,7 @@
       {% include ext-css.html css=css %}
     {% endfor %}
   {% endif %}
-  
+
   {% if page.css %}
     {% for css in page.css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">
