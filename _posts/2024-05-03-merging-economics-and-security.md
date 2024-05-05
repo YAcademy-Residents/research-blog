@@ -9,7 +9,7 @@ comments: true
 author: engn33r
 ---
 
-# Security Implications from DeFi Risk Modelling
+# DeFi Design Takeaways from DeFi Risk Modelling
 
 Everyone involved in the rollout of a protocol has an interest in providing the best possible protocol design to end users. A user doesn't care if they lose value due to an arithmetic error or due to a bad design choice - the user's end result is the same. So while security experts are often focused on finding implementation errors in a protocol's design, this can miss the forest for the trees when the protocol implementation is perfect but the design is wrong or suboptimal.
 
