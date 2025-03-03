@@ -10,7 +10,7 @@ export default function RedirectPage() {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const slug = pathname.replace('/docs/', '');
+      const slug = pathname;
       if (!slug) return;
 
       const interval = setInterval(() => {
